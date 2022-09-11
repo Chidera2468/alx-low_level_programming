@@ -1,20 +1,18 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-
+#include <unistd.h>
 /**
  * main - Entry point
- *
+ * Description: prints allsingle dig 															it numbers of base 10 from 0
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-	int i;
+	int a;
 
-	for (i = 0; i < 10; i++)
-		printf("%", i);
-	printf("\n");
-
-	retun (0);
+	for (a = 0; a < 10; a++)
+	{
+		printf("%"d", a);
+	}
+	putchar('\n');
+	return (0);
 }
