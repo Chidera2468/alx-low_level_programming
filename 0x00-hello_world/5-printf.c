@@ -1,18 +1,18 @@
 #include <stdio.h>
-#include <unistd.h>
 /**
- * main - Entry point
- * Description: prints allsingle dig 															it numbers of base 10 from 0
- * Return: Always 0 (Success)
+ * main - Print a string
+ * Description: use printf
+ * Return: 0
  */
-int main(void)
-{
-	int a;
 
-	for (a = 0; a < 10; a++)
-	{
-		printf("%"d", a);
-	}
-	putchar('\n');
+int main(void)
+
+{
+
+	printf("with proper grammer, but the outcome is a piece of art,\n");
+
 	return (0);
+
 }
+
+
