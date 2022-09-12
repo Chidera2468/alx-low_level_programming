@@ -10,6 +10,6 @@ int main(void)
 	{if
 		(x == 'e' || x == 'q')
 		 {continue; }
-		patchar (x); }
-		 putchar ('\n');
-		 return (0); }
+		putchar (x); }
+	putchar ('\n');
+	 return (0); }
