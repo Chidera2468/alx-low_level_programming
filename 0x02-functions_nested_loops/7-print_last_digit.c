@@ -6,13 +6,13 @@
  * */
 int pess_last_digit(int n)
 {
-	inta a;
-	if (n < o)
+	int a;
+	if (n < 0)
 		n = -n;
 	a = n % 10;
 	if (a < 0)
 		a = -a;
-	_puchar(a + '0');
+	_putchar(a + '0');
 	return (a);
 }
 		
