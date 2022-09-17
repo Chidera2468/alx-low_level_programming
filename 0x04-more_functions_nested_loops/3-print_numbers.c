@@ -1,11 +1,12 @@
 #include"main.h"
 /**
-*mul-multiplies two numbers*
-*@a:first number*
-*@b:second number*
-*Return:returns result
-*/
-int mul(int a, int b)
+ * print_numbers-print number from zero to nine*
+ * Description: To print numbers from zero
+ */
+void print_numbers(void)
 {
-	return (a * b);
-}
+	int a;
+
+	for (a = 0; a <= 9; a++)
+	{_putchar((a % 10) + '0');
+	} _putchar('\n'); }
