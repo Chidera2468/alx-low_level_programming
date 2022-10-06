@@ -3,13 +3,13 @@
 #include<stdio.h>
 
 /**
- * _memset - fills memory with a constant byte
+ *_memset - fills memory with a constant byte
  *
- * @s: input pointer that represents memory block
- * to fill
- * @b: characters to fill/set
- * @n: number of bytes to be filled
- * Return: pointer to the filled memory area
+ *@s: input pointer that represents memory block
+ *to fill
+ *@b: characters to fill/set
+ *@n: number of bytes to be filled
+ *Return: pointer to the filled memory area
  *
  */
 
@@ -26,13 +26,13 @@ char *_memset(char *s, char b, unsigned int n)
 }
 
 /**
- * _calloc - function that allocates memory
- * for an array using memset
+ *_calloc - function that allocates memory
+ *for an array using memset
  *
- * @nmemb: size of array
- * @size: size of each element
+ *@nmemb: size of array
+ *@size: size of each element
  *
- * Return: pointer to new allocated memory
+ *Return: pointer to new allocated memory
  */
 
 void *_calloc(unsigned int nmemb, unsigned int size)
@@ -51,12 +51,12 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 
 
 /**
- * multiply - initialize array with 0 byte
+ *multiply - initialize array with 0 byte
  *
- * @s1: string 1
- * @s2: string 2
+ *@s1: string 1
+ *@s2: string 2
  *
- * Return: nothing
+ *Return: nothing
  */
 
 void multiply(char *s1, char *s2)
@@ -103,15 +103,15 @@ void multiply(char *s1, char *s2)
 }
 
 /**
- * main - Entry point
+ *main - Entry point
  *
- * Description: a program that multiplies
- * two positive numbers
+ *Description: a program that multiplies
+ *two positive numbers
  *
- * @argc: number of arguments
- * @argv: arguments array
+ *@argc: number of arguments
+ *@argv: arguments array
  *
- * Return: 0 on success 98 on faliure
+ *Return: 0 on success 98 on faliure
  */
 
 int main(int argc, char *argv[])
